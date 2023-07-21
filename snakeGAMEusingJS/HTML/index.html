@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>SNAKE GAME</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="game__details">
+            <audio class="audioFood" id="audioElement" src="/AUD/assets_audio.mp3"></audio>
+            <audio class="GameOverAudio" src="/AUD/SnapInsta.io - Game Over Sound Effects High Quality (128 kbps).mp3"></audio>
+            <span class="score">Score : 0</span>
+            <span class="high-score">Highscore : 0</span>
+        </div>
+        <div class="play__board"></div>
+        <div class="controls">
+            <ion-icon data-key="ArrowBack" class="icon__controls" name="arrow-back"></ion-icon>
+            <ion-icon data-key="ArrowUp" class="icon__controls" name="arrow-up"></ion-icon>
+            <ion-icon data-key="ArrowForward" class="icon__controls" name="arrow-forward"></ion-icon>
+            <ion-icon data-key="ArrowDown" class="icon__controls" name="arrow-down"></ion-icon>
+        </div>
+    </div>
+    <script src="/JS/script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script> 
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+</body>
+</html>
